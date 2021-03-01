@@ -52,7 +52,7 @@ sleep(time:10,unit:"SECONDS")
 
 stage('Deploy to Tomcat'){
  
-bat "copy target\\Final.war \"${tomcatWeb}\\Final.war\""
+bat "copy target\\ASSIJ.war \"${tomcatWeb}\\ASSIJ.war\""
 
 }
  
